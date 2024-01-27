@@ -38,3 +38,5 @@ python main.py
 
 For a dot, blink how you normally would (short blink) and for a dash hold the blink for a second (long blink).
 The code demonstrates efficiency in identifying dots; however, it exhibits limitations in detecting dashes, consequently restricting its ability to accurately identify certain alphabets in the dictionary.
+
+Video demonstration: https://youtu.be/Lt7rQFrdUN0?feature=shared
