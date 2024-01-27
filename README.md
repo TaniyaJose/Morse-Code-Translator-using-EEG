@@ -29,7 +29,7 @@ lobes).
 
 Ensure the electrodes are connected to the amplifier which is connected to the USB-DUX box and then
 connected to the computer using a USB cable.
-Once the set-up is complete run the python file (from the directory in which the code is saved in) on the Linux
+Once the set-up is complete run the Python file (from the directory in which the code is saved in) on the Linux
 command line (BASH) to execute the code as follows:
 
 ```
@@ -37,5 +37,4 @@ python main.py
 ```
 
 For a dot, blink how you normally would (short blink) and for a dash hold the blink for a second (long blink).
-The code is efficient in detecting dots but it not that efficient in detecting dashes which leads to some
-limitations in the number of letters that can be identified from the dictionary. 
+The code demonstrates efficiency in identifying dots; however, it exhibits limitations in detecting dashes, consequently restricting its ability to accurately identify certain alphabets in the dictionary.
