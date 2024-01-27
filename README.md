@@ -4,7 +4,7 @@ This project involved building a Morse code translator that works in real-time. 
 detectable in EEG signals. Different types of blinks are also distinguishable in the EEG signal. One can blink in
 Morse code which can be translated into English.
 The following algorithm considers a short blink as a dot and a long blink as a dash. It then identifies these in the
-signal as Morse code character inputs and then translates them using a Morse Code to English.
+signal as Morse code character inputs and then translates them to English using a dictionary.
 
 ## Requirements
 The program requires a LINUX interface to run. A USB-DUX box is essential to run the code. It executes it at a
