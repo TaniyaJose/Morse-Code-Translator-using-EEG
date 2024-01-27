@@ -18,7 +18,22 @@ Ensure python3 is installed. The pyusbdux and py-iir-filter libraries are needed
 code in real time and further information regarding their installation and set-up can be found in the links below:
 https://github.com/berndporr/pyusbdux/blob/master/README.rst
 https://github.com/berndporr/py-iir-filter/blob/master/README.rst
-USAGE
+
+## Usage
 Three electrodes are utilised to detect the blinking artifacts. Two electrodes are placed above and below the eye
 respectively and the third electrode (which acts as the ground) is placed at the mastoid (region behind the ear
 lobes). 
+<img width="187" alt="image" src="https://github.com/tanvik7072/morse-code-translator-using-eeg/assets/66367698/bc4196ea-614f-4099-9e04-e6bcb8ee0a87">
+
+Ensure the electrodes are connected to the amplifier which is connected to the USB-DUX box and then
+connected to the computer using a USB cable.
+Once the set-up is complete run the python file (from the directory in which the code is saved in) on the Linux
+command line (BASH) to execute the code as follows:
+
+```
+python main.py
+```
+
+For a dot, blink how you normally would (short blink) and for a dash hold the blink for a second (long blink).
+The code is efficient in detecting dots but it not that efficient in detecting dashes which leads to some
+limitations in the number of letters that can be identified from the dictionary. 
